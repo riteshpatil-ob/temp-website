@@ -6,7 +6,7 @@ import DesktopNavbar from "./DesktopNavbar";
 import MobileNavbar from "./MobileNavbar";
 
 const Navbar = () => {
-  const isDesktop = useMediaQuery("(min-width: 960px)");
+  const isDesktop = useMediaQuery("(min-width: 768px)");
 
   return isDesktop ? <DesktopNavbar /> : <MobileNavbar />;
 };
