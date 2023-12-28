@@ -3,6 +3,7 @@ import Image from "next/image";
 import AppDemo from "@/components/AppDemo";
 import BuiltForDevs from "@/components/BuiltForDevs";
 import Hero from "@/components/Hero";
+import Products from "@/components/Products";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <AppDemo />
       <BuiltForDevs />
+      <Products />
     </main>
   );
 }
