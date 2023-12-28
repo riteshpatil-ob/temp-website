@@ -31,8 +31,8 @@ const PARTNERS = [
 
 const Hero = () => {
   return (
-    <header className="w-full" style={{ height: "calc(100vh - 96px)" }}>
-      <div className="md:flex md:flex-row md:py-20 md:container md:mx-auto relative md:h-4/6">
+    <header className="w-full">
+      <div className="md:flex md:flex-row md:py-40 xl:py-60  md:container md:mx-auto relative md:h-4/6">
         <div className="flex flex-col justify-center items-center md:items-start mt-6 md:w-1/2 md:pl-12">
           <h1 className="text-3xl lg:text-5xl font-bold text-center md:text-left w-3/4 leading-relaxed lg:leading-normal">
             The safer way for your users to link financial accounts
