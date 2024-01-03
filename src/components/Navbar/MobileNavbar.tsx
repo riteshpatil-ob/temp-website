@@ -11,15 +11,6 @@ const NAV_ITEMS = [
   {
     title: "Use Cases",
   },
-  {
-    title: "Pricing",
-  },
-  {
-    title: "Developers",
-  },
-  {
-    title: "Resources",
-  },
 ];
 
 const MobileNavbar = () => {

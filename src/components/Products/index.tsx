@@ -6,17 +6,17 @@ import Product3 from "@/assets/images/product-3.webp";
 
 const PRODUCTS = [
   {
-    title: "Identity Verification",
+    title: "Magnus",
     description: "Fraud detection and prevention",
     image: Product1,
   },
   {
-    title: "Signal",
+    title: "Prism",
     description: "Faster payments and lower risk",
     image: Product2,
   },
   {
-    title: "Income",
+    title: "Prime",
     description: "Income and employment verification",
     image: Product3,
   },
@@ -27,13 +27,15 @@ const Products = () => {
     <section className="w-full py-28 px-8 md:py-20 md:px-32">
       <div className="md:w-1/2 md:mx-auto">
         <h3 className="text-center text-2xl font-semibold mb-8 lg:text-4xl">
-          Products that work together
+          We are here to build together
         </h3>
         <p className="text-center font-extralight text-sm w-full mb-8 lg:text-md">
-          Plaid products are designed to supercharge every aspect of your
-          financial offering. The Plaid Network will help you grow, fight fraud,
-          and deliver more financial services, with products that achieve your
-          goals even faster when used together.
+          Our products are designed to enhance all facets of your financial
+          services. We ensure that our advanced and smart network will foster
+          growth and enable the delivery of a broad range of services and
+          products that complement your primary offerings. We are committed to
+          shaping the future of authentication, verification and intelligent
+          data processing.
         </p>
       </div>
 

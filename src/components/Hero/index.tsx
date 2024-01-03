@@ -32,17 +32,18 @@ const PARTNERS = [
 const Hero = () => {
   return (
     <header className="w-full">
-      <div className="md:flex md:flex-row md:py-40 xl:py-60  md:container md:mx-auto relative md:h-4/6">
+      <div className="md:flex md:flex-row md:py-30 xl:py-40  md:container md:mx-auto relative md:h-4/6">
         <div className="flex flex-col justify-center items-center md:items-start mt-6 md:w-1/2 md:pl-12">
           <h1 className="text-3xl lg:text-5xl font-bold text-center md:text-left w-3/4 leading-relaxed lg:leading-normal">
-            The safer way for your users to link financial accounts
+            We are one of the safer ways for users to link their financial
+            accounts & make the most out of it
           </h1>
 
           <div className="flex justify-center items-center mt-6">
-            <button className="bg-[#111111] px-5 py-3 text-white text-base mr-5">
+            {/* <button className="bg-[#111111] px-5 py-3 text-white text-base mr-5">
               Get Started
             </button>
-            <button>Contact Us</button>
+            <button>Contact Us</button> */}
           </div>
         </div>
 
@@ -66,13 +67,13 @@ const Hero = () => {
 
       <div className="bg-white py-8 md:mx-auto md:pl-12">
         <p className="text-center text-base text-[#767676] w-3/4 mx-auto mb-4">
-          Trusted By
+          {/* Trusted By */}
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 items-center w-3/4 mx-auto md:justify-between md:container ">
-          {PARTNERS.map(({ name, image }) => (
+          {/* {PARTNERS.map(({ name, image }) => (
             <Image key={name} src={image} alt={name} className="h-8 w-auto" />
-          ))}
+          ))} */}
         </div>
       </div>
     </header>
